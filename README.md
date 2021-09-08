@@ -1,6 +1,8 @@
 # ThreeDaysFoGooo
 三天Go语言简单入门  From 极客Live
 
+
+
 📔Go语言学习记录
 
 - Go语言的特点
@@ -37,9 +39,16 @@
 
     - Go语言初体验
 
-      package main import "fmt" *// or* *// import (* *//  "fmt"* *// )* func main() { *// 第一个括号不可以换到下一行*  fmt.Println("Hello World!") } 
-
-    - 
+      ```go
+      package main import "fmt" 
+      
+      or
+      //import ("fmt" )
+      
+      func main() {
+      // 第一个括号不可以换到下一行
+      fmt.Println("Hello World!") } 
+      ```
 
 - 第二天
 
@@ -47,7 +56,10 @@
 
     - 数据类型
 
-      var hello string = "Hello World!"      // 注意语法 arr:=[]int{2,3,4,5}   //数组的定义
+      ```go
+      var hello string = "Hello World!"      // 注意语法 
+      arr:=[]int{2,3,4,5}   //数组的定义
+      ```
 
       - int、float64、struct、map
 
@@ -67,7 +79,12 @@
 
       - 定义变量过程中可以不指定变量类型， golang会自行推断
 
-        var v3,v4="c",4  fmt.Println(v3,v4)  fmt.Println(reflect.TypeOf(v3))  fmt.Println(reflect.TypeOf(v4))
+        ```go
+        var v3,v4="c",4  
+        fmt.Println(v3,v4)  
+        fmt.Println(reflect.TypeOf(v3))  
+        fmt.Println(reflect.TypeOf(v4))
+        ```
 
     - 变量类型转换及其代价
 
